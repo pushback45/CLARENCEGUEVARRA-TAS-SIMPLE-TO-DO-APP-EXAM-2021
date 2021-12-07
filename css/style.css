@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body{
+	background: hsl(217, 54%, 11%);
+	font-family: "Outfit", sans-serif;
+}
+header{
+	width: 50%;
+	margin: 50px auto ;
+	text-align: center;
+	color: hsl(178, 100%, 50%);
+	background: hsl(215, 51%, 70%);
+	border: 2px solid #6B8E23;
+	border-radius: 30px;
+	font-size: 30px;
+}
+.todo{
+	width: 50%;
+	margin: 50px auto ;
+	padding: 10px;
+	color: hsl(178, 100%, 50%);
+	background: hsl(215, 51%, 70%);
+	border: 1px solid #6B8E23;
+	border-radius: 30px;
+	font-size: 10px;
+}
+.inputtask{
+	width: 80%;
+	height: 15px;
+	padding: 10px;
+	border: 2px solid #6B8E23;
+	border-radius: 30px;
+}
+.taskadded{
+	height: 40px;
+	background: hsl(215, 51%, 70%);
+	color: hsl(178, 100%, 50%);
+	border: 2px solid #6B8E23;
+	border-radius: 10px;
+	padding: 5px 20px;
+}
+.taskadded:hover{
+	cursor: pointer;
+	background: hsl(217, 54%, 11%);
+}
+table{
+	width: 60%;
+	margin: 0 auto 0 auto;
+	border-collapse: collapse;
+}
+tr{
+	border-bottom: 1px solid;
+}
+th{
+	font-size: 20px;	
+}
+th, td{
+	border: none;
+	height: 40px;
+	padding: 2px;
+	color: hsl(178, 100%, 50%); 
+}
+td{
+	text-align: center;
+}
